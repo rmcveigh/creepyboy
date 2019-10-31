@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creepy Boy</title>
+  <style>
+    html {
+      -webkit-animation:zoom 20s infinite;
+      animation:zoom 20s infinite;
+      /* The image used */
+      background: url(scarryKid.png) no-repeat center top fixed;
+      background-color: #222;
+    }
+
+    @-webkit-keyframes zoom{
+      0%,100%{
+        background-size: 40%;
+        background-position: center top;
+      }
+      50%{
+        background-size: 270%;
+        background-position: center -120rem;
+      }
+    }
+    @keyframes zoom{
+      0%, 100%{
+        background-size:40%;
+        background-position: center top;
+      }
+      50%{
+        background-size:270%;
+        background-position: center -120rem;
+      }
+    }
+  </style>
+</head>
+<body>
+ <div class="bg"></div>
+</body>
+</html>
